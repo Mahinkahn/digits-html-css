@@ -7,9 +7,9 @@ const ConterImg = () => {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="text-neutral-content">
                 <div className="text-center">
-                    <h1 className="mb-5 text-5xl font-bold mt-24">Hello there</h1>
+                    <h1 className="mb-5 text-5xl font-bold mt-24 text-accent">Simplicity meets innovative design</h1>
                     <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat <br /> ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary mb-5 hover:scale-110">Get Started</button>
+                    <button className="btn btn-primary rounded-full mb-5 hover:scale-110">Get Started</button>
                 </div>
                 <img src={Graphic} alt="" className='hover:scale-105' />
             </div>

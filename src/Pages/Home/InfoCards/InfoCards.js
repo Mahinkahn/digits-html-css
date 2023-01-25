@@ -42,7 +42,7 @@ const InfoCards = () => {
     ]
 
     return (
-        <div className='mt-8 text-center'>
+        <div className='mt-12 text-center'>
             <p>Provident cupiditate voluptatem et in. Quaerat</p>
             <div className='grid mt-8 gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-7'>
                 {

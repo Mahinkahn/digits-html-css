@@ -33,14 +33,14 @@ const Navbar = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl text-accent font-bold">digits</a>
             </div>
-            <div className="navbar-center hidden lg:flex mr-72">
+            <div className="navbar-center hidden lg:flex mr-[570px]">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                    <li><a>Homepages</a></li>
                     <li tabIndex={0}>
                         <a>
-                            Parent
+                            company
                             <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                         </a>
                         <ul className="p-2">
@@ -48,12 +48,14 @@ const Navbar = () => {
                             <li><a>Submenu 2</a></li>
                         </ul>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Products</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Pricing </a></li>
                 </ul>
             </div>
             <div className="navbar-end">
                 <p className='mr-5 hover:scale-110'>01952054</p>
-                <a className="btn btn-secondary hover:scale-110">Get started</a>
+                <a className="btn btn-primary rounded-full hover:scale-110">Get started</a>
             </div>
 
         </div>

@@ -35,7 +35,7 @@ const Testimonial = () => {
         <section className='my-16 mt-28'>
             <div className='flex justify-center'>
                 <div>
-                    <h4 className='text-4xl'>What Our Patients Says</h4>
+                    <h4 className='text-4xl font-bold text-accent'>What Our Patients Says</h4>
                 </div>
             </div>
             <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>

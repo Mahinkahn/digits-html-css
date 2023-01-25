@@ -7,12 +7,13 @@ import appointment from '../../../assets/images/appointment.png'
 
 const MakeAppointment = () => {
     return (
-        <section className='mt-48'
+        <section className='mt-44'
         // style={{
         //     background: `url(${appointment})`
         // }}
         >
-            <h1 className=" text-4xl font-bold text-center">Make an appointment Today</h1>
+            <h1 className="text-5xl font-bold text-center text-accent">Whatever work you do, <br />
+                we're able to help</h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={doctor} alt="" className="mr-52 hidden md:block -mt-[]  w-[650px] " />
@@ -24,7 +25,7 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-8">Design and Assets </div>
+                                <div className="text-2xl font-bold ml-8 text-accent">Design and Assets </div>
                                 <div className="text-sm opacity-50 ml-8 mt-5">digital marketing images to choose from. Free high resolution picture download. s</div>
                             </div>
                         </div>
@@ -39,7 +40,7 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-8">Easy Content </div>
+                                <div className="text-2xl font-bold ml-8 text-accent">Easy Content </div>
                                 <div className="text-sm opacity-50 ml-8 mt-5">digital marketing images to choose from. Free high resolution picture download. </div>
                             </div>
                         </div>
@@ -54,7 +55,7 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-8 mt-3">Fast and Reliable</div>
+                                <div className="text-2xl font-bold ml-8 mt-3 text-accent">Fast and Reliable</div>
                                 <div className="text-sm opacity-50 ml-8 mt-5">digital marketing images to choose from. Free high resolution picture download. </div>
                                 <div className='mt-10'>
                                     <hr />
