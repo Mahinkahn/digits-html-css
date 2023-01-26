@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import digits from '../../../assets/images/digits-logo.png'
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
     </React.Fragment>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mt-3">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,9 +34,9 @@ const Navbar = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl text-accent font-bold">digits</a>
+                <a><img src={digits} alt="" /></a>
             </div>
-            <div className="navbar-center hidden lg:flex mr-[570px]">
+            <div className="navbar-center hidden lg:flex mr-[600px]">
                 <ul className="menu menu-horizontal px-1">
                     <li><a>Homepages</a></li>
                     <li tabIndex={0}>

@@ -3,15 +3,15 @@ import Graphic from '../../../../assets/images/Graphic.png'
 
 const ConterImg = () => {
     return (
-        <div className="hero bg-schemes mt-28">
+        <div className="hero bg-schemes mt-[150px]">
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="text-neutral-content">
                 <div className="text-center">
-                    <h1 className="mb-5 text-5xl font-bold mt-24 text-accent">Simplicity meets innovative design</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat <br /> ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary rounded-full mb-5 hover:scale-110">Get Started</button>
+                    <h1 className="text-5xl font-bold mt-[139px] text-accent">Simplicity meets innovative design</h1>
+                    <p className="mt-10 text-slate-500">Provident cupiditate voluptatem et in. Quaerat fugiat <br /> ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button className="btn btn-primary rounded-full mt-10 hover:scale-110">Get Started</button>
                 </div>
-                <img src={Graphic} alt="" className='hover:scale-105' />
+                <img src={Graphic} alt="" className='mt-9' />
             </div>
         </div>
     );

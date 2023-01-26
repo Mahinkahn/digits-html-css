@@ -1,16 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import footer from '../../../assets/images/footer.png';
+import footer from '../../../assets/images/digits-logo.png';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 mt-14 mb-4 text-base-content">
+        <footer className="footer p-10 mt-[128px] mb-4 text-base-content">
             <div>
-                <a className=" normal-case text-xl text-accent font-bold">digits</a>
+                <a><img src={footer} alt="" /></a>
                 <a className="link link-hover hover:scale-110">Branding</a>
                 <a className="link link-hover hover:scale-110">Design</a>
                 <a className="link link-hover hover:scale-110">Marketing</a>
                 <a className="link link-hover hover:scale-110">Advertisement</a>
+            </div>
+            <div>
+                <span className="footer-title">Company</span>
+                <a className="link link-hover hover:scale-110">About us</a>
+                <a className="link link-hover hover:scale-110">Contact</a>
+                <a className="link link-hover hover:scale-110">Jobs</a>
+                <a className="link link-hover hover:scale-110">Press kit</a>
             </div>
             <div>
                 <span className="footer-title">Company</span>

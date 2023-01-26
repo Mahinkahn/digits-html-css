@@ -32,13 +32,13 @@ const Testimonial = () => {
     ]
 
     return (
-        <section className='my-16 mt-28'>
+        <section className='my-16 mt-[160px]'>
             <div className='flex justify-center'>
                 <div>
                     <h4 className='text-4xl font-bold text-accent'>What Our Patients Says</h4>
                 </div>
             </div>
-            <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8'>
+            <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[56px]'>
                 {
                     reviews.map(review => <Review
                         key={review._id}
