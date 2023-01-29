@@ -15,7 +15,7 @@ const MakeAppointment = () => {
             </div>
             <div className="mt-[-140px]">
                 <div className="hero-content flex-col lg:flex-row ">
-                    <img src={doctor} alt="" className="mr-[168px] md:block  w-[611px]" />
+                    <img src={doctor} alt="" className="mr-[168px] mt-[50px] md:block  w-[611px]" />
                     <div className="flex-col lg:flex-row">
                         <div className="flex items-center space-x-3">
                             <div className="avatar">

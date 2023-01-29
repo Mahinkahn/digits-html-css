@@ -12,7 +12,7 @@ const Banner = () => {
                 <button className="btn btn-primary mt-[30] mr-[22px] rounded-full hover:scale-110">Buy Digits </button>
                 <button className="btn btn-outline btn-primary rounded-full hover:scale-110">See the Features</button>
                 <div className='relative'>
-                    <img src={chair} className="rounded-lg lg:w-3/2 ml-32 mt-8 mb-12" alt='' />
+                    <img src={chair} className="rounded-lg lg:w-3/2 flex content-center mt-8 mb-12" alt='' />
                 </div>
             </div>
         </div>
