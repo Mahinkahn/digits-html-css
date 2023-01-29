@@ -3,7 +3,7 @@ import Graphic from '../../../../assets/images/Graphic.png'
 
 const ConterImg = () => {
     return (
-        <div className="hero bg-schemes mt-[150px]">
+        <div className="hero bg-schemes mt-[140px]">
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="text-neutral-content">
                 <div className="text-center">
@@ -11,7 +11,7 @@ const ConterImg = () => {
                     <p className="mt-10 text-slate-500">Provident cupiditate voluptatem et in. Quaerat fugiat <br /> ut assumenda excepturi exercitationem quasi. <br /> In deleniti eaque aut repudiandae et a id nisi.</p>
                     <button className="btn btn-primary rounded-full mt-10 hover:scale-110">Get Started</button>
                 </div>
-                <img src={Graphic} alt="" className='mt-9' />
+                <img src={Graphic} alt="" className='mt-9  w-[2200px] h-[700px]' />
             </div>
         </div>
     );

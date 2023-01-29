@@ -8,12 +8,12 @@ import appointment from '../../../assets/images/appointment.png'
 const MakeAppointment = () => {
     return (
 
-        <div>
+        <div className='max-w-[1440px] mx-auto'>
             <div className='mt-[159px]'>
                 <h1 className="text-5xl leading-normal font-bold text-center text-accent">Whatever work you do, <br />
                     we're able to help</h1>
             </div>
-            <div className="">
+            <div className="mt-[-140px]">
                 <div className="hero-content flex-col lg:flex-row ">
                     <img src={doctor} alt="" className="mr-[168px] md:block  w-[611px]" />
                     <div className="flex-col lg:flex-row">

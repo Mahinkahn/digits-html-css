@@ -4,7 +4,7 @@ import footer from '../../../assets/images/digits-logo.png';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 mt-[128px] mb-4 text-base-content">
+        <footer className="footer p-10 mt-[128px] mb-4 text-base-content max-w-[1440px] mx-auto">
             <div>
                 <a><img src={footer} alt="" /></a>
                 <p className='mt-[31px] text-base text-gray-600'>Design branding marketing

@@ -2,7 +2,7 @@ import React from 'react';
 
 const For = () => {
     return (
-        <div className='mt-[77px]'>
+        <div className='mt-[77px] max-w-[1440px] mx-auto'>
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <footer className="footer items-center p-4 text-neutral-content mt-[53px] mb-[107px]">
                 <div className="items-center grid-flow-col">
