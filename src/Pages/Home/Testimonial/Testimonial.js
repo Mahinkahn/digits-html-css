@@ -48,7 +48,7 @@ const Testimonial = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
                             <img src="https://i.ibb.co/ZgF5Zzz/avatar-1.png" alt="profile pictre" className="w-12 h-12" />
-                            <p className="text-base font-semibold leading-4 my-2 text-accent">Happy User</p>
+                            <p className="text-base font-bold leading-4 my-2 text-accent">Happy User</p>
                             <p className="leading-4">tempy.club</p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Testimonial = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center mt-10">
                             <img src="https://i.ibb.co/8BLjmqz/avatar-2.png" alt="profile pictre" className="w-12 h-12" />
-                            <p className="text-base font-semibold leading-4 my-2 text-accent">Happy User</p>
+                            <p className="text-base font-bold leading-4 my-2 text-accent">Happy User</p>
                             <p className="leading-4">tempy.club</p>
                         </div>
                     </div>
