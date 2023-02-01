@@ -55,7 +55,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <p className='mr-5 hover:scale-110 sm:hidden'>01952054</p>
+                <p className='mr-5 hover:scale-110 hidden sm:block'>01952054</p>
                 <a className="btn btn-primary rounded-full hover:scale-110">Get started</a>
             </div>
 
