@@ -9,17 +9,17 @@ const MakeAppointment = () => {
     return (
 
         <div className='max-w-[1440px] mx-auto'>
-            <div className='mt-[159px]'>
+            <div className='lg:mt-[159px] mt-12'>
                 <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-center text-accent">Whatever work you do, <br />
                     we're able to help</h1>
             </div>
             <div className="mt-[-140px] flex justify-center">
                 <div className="hero-content flex-col lg:flex-row ">
-                    <img src={doctor} alt="" className="mr-[168px] mt-[40px] md:block  w-[700px]" />
+                    <img src={doctor} alt="" className="lg:mr-[168px] mt-[40px] md:block lg:w-[700px]" />
                     <div className="container mt-4 flex-col lg:flex-row">
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center justify-center space-x-3">
                             <div className="avatar">
-                                <div className=" w-20 h-20">
+                                <div className="w-20 h-20">
                                     <img src={Icon} alt="Avatar Tailwind CSS Component" />
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ const MakeAppointment = () => {
                             <hr />
                         </div>
                         <br />
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center justify-center space-x-3">
                             <div className="avatar">
                                 <div className=" w-20 h-20">
                                     <img src={Icon2} alt="Avatar Tailwind CSS Component" />
@@ -53,7 +53,7 @@ const MakeAppointment = () => {
                             <hr />
                         </div>
                         <br />
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center justify-center space-x-3">
                             <div className="avatar">
                                 <div className="w-20 h-20">
                                     <img src={Icon1} alt="Avatar Tailwind CSS Component" />

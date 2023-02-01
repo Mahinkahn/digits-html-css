@@ -2,7 +2,7 @@ import React from 'react';
 const Testimonial = () => {
     return (
         <>
-            <div className='mt-[150px]'>
+            <div className='lg:mt-[150px] mt-12'>
                 <h1 className="lg:text-4xl md:text-4xl text-2xl font-bold px-4 leading-10 text-accent mt-6 text-center">What others are saying</h1>
                 <div className="container mx-auto grid sm:grid-cols-1 mt-[-40px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:px-20 px-10 py-20 gap-6">
                     <div>
