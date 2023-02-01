@@ -10,13 +10,13 @@ const MakeAppointment = () => {
 
         <div className='max-w-[1440px] mx-auto'>
             <div className='mt-[159px]'>
-                <h1 className="text-5xl leading-normal font-bold text-center text-accent">Whatever work you do, <br />
+                <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-center text-accent">Whatever work you do, <br />
                     we're able to help</h1>
             </div>
-            <div className="mt-[-140px]">
+            <div className="mt-[-140px] flex justify-center">
                 <div className="hero-content flex-col lg:flex-row ">
-                    <img src={doctor} alt="" className="mr-[168px] mt-[50px] md:block  w-[611px]" />
-                    <div className="flex-col lg:flex-row">
+                    <img src={doctor} alt="" className="mr-[168px] mt-[40px] md:block  w-[700px]" />
+                    <div className="container mt-4 flex-col lg:flex-row">
                         <div className="flex items-center space-x-3">
                             <div className="avatar">
                                 <div className=" w-20 h-20">
@@ -24,14 +24,14 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-12 text-accent mt-3">Design and Assets </div>
-                                <div className="text-sm opacity-50 ml-12 mt-5 font-medium">Make your brand stand out with <br />
+                                <div className="lg:text-2xl md:text-2xl text-lg font-bold ml-12 text-accent mt-3">Design and Assets </div>
+                                <div className="text-xs opacity-50 ml-12 mt-5 text-accent font-medium">Make your brand stand out with <br />
                                     pixel-perfect design crafted to <br />
                                     perfection
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-[47px]'>
+                        <div className='mt-[47px] w-[405px]'>
                             <hr />
                         </div>
                         <br />
@@ -42,14 +42,14 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-12 text-accent mt-3">Design and Assets </div>
-                                <div className="text-sm opacity-50 ml-12 mt-5 font-medium">Make your brand stand out with <br />
+                                <div className="lg:text-2xl md:text-2xl text-lg font-bold ml-12 text-accent mt-3">Design and Assets </div>
+                                <div className="text-xs opacity-50 ml-12 mt-5 text-accent font-medium">Make your brand stand out with <br />
                                     pixel-perfect design crafted to <br />
                                     perfection
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-[47px]'>
+                        <div className='mt-[47px] w-[405px]'>
                             <hr />
                         </div>
                         <br />
@@ -60,8 +60,8 @@ const MakeAppointment = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-2xl font-bold ml-12 text-accent mt-3">Design and Assets </div>
-                                <div className="text-sm opacity-50 ml-12 mt-5 font-medium">Make your brand stand out with <br />
+                                <div className="lg:text-2xl md:text-2xl text-lg font-bold ml-12 text-accent mt-3">Design and Assets </div>
+                                <div className="text-xs opacity-50 ml-12 mt-5 text-accent font-medium">Make your brand stand out with <br />
                                     pixel-perfect design crafted to <br />
                                     perfection
                                 </div>
